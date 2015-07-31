@@ -1,7 +1,7 @@
 {
   "name": "degree",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Development server for virtual-dom/observable components",
   "license": "MIT",
   "repository": "bendrucker/degree",
