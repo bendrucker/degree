@@ -1,0 +1,51 @@
+{
+  "name": "degree",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Development server for virtual-dom/observable components",
+  "license": "MIT",
+  "repository": "bendrucker/degree",
+  "author": {
+    "email": "bvdrucker@gmail.com",
+    "name": "Ben Drucker",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "component",
+    "development",
+    "mercury",
+    "observable",
+    "server",
+    "virtual-dom"
+  ],
+  "devDependencies": {
+    "browserify": "~11.0.1",
+    "observ": "~0.2.0",
+    "raf": "~3.1.0",
+    "standard": "^4.0.0",
+    "tape": "^4.0.0",
+    "xtend": "~4.0.0"
+  },
+  "files": [
+    "create.js",
+    "index.js",
+    "plugin.js",
+    "transform.js"
+  ],
+  "dependencies": {
+    "budo": "~4.1.0",
+    "defined": "~1.0.0",
+    "dom-delegator": "~13.1.0",
+    "global": "~4.3.0",
+    "meow": "~3.3.0",
+    "opn": "~3.0.2",
+    "require-deps": "~1.0.1",
+    "thermometer": "~1.2.1",
+    "through2": "~2.0.0",
+    "transformify": "~0.1.2",
+    "virtual-dom": "~2.0.1"
+  }
+}
