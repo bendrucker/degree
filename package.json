@@ -13,6 +13,9 @@
   "scripts": {
     "test": "standard && tape test.js"
   },
+  "bin": {
+    "degree": "bin.js"
+  },
   "keywords": [
     "component",
     "development",
@@ -33,7 +36,8 @@
     "create.js",
     "index.js",
     "plugin.js",
-    "transform.js"
+    "transform.js",
+    "bin.js"
   ],
   "dependencies": {
     "budo": "~4.1.0",
