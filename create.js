@@ -17,5 +17,3 @@ module.exports = function renderComponent (Component) {
     }
   })
 }
-
-function noop () {}

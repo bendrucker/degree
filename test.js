@@ -7,7 +7,6 @@ var vm = require('vm')
 var window = require('global/window')
 var document = require('global/document')
 var assign = require('xtend/mutable')
-var degree = require('./')
 
 test('plugin', function (t) {
   t.plan(5)
