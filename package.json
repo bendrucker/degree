@@ -33,11 +33,11 @@
     "xtend": "~4.0.0"
   },
   "files": [
+    "bin.js",
     "create.js",
     "index.js",
     "plugin.js",
-    "transform.js",
-    "bin.js"
+    "transform.js"
   ],
   "dependencies": {
     "budo": "~4.1.0",
@@ -47,6 +47,7 @@
     "meow": "~3.3.0",
     "opn": "~3.0.2",
     "require-deps": "~1.0.1",
+    "resolve": "~1.1.6",
     "thermometer": "~1.2.1",
     "through2": "~2.0.0",
     "transformify": "~0.1.2",
