@@ -17,7 +17,6 @@ test('plugin', function (t) {
       files: [componentPath]
     })
     .bundle(function (err, code) {
-      require('fs').writeFileSync('bundle.js', code)
       if (err) return t.end(err)
 
       var context = assign(vm.createContext(window), {
