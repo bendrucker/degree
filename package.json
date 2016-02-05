@@ -40,7 +40,7 @@
     "transform.js"
   ],
   "dependencies": {
-    "budo": "~4.1.0",
+    "budo": "~8.0.3",
     "defined": "~1.0.0",
     "dom-delegator": "~13.1.0",
     "global": "~4.3.0",

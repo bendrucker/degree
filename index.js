@@ -6,9 +6,13 @@ var plugin = require('./plugin')
 
 module.exports = function degree (entries, options) {
   if (typeof entries === 'string') entries = [entries]
+
   options = options || {}
-  options.plugin = options.plugin || []
-  options.plugin.push([plugin, {files: entries}])
+  options.browserify = options.browserify || {}
+  options.browserify.plugin = options.browserify.plugin || []
+
+  options.browserify.plugin.push([plugin, {files: entries}])
   options.open = defined(options.open, true)
+
   return budo(entries, options)
 }
