@@ -2,7 +2,6 @@
 
 'use strict'
 
-var open = require('opn')
 var meow = require('meow')
 var extend = require('xtend')
 var degree = require('./')
