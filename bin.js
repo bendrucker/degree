@@ -19,6 +19,6 @@ if (!entries.length) throw new Error('entries are required')
 degree(entries, extend(cli.flags, {
   stream: process.stdout,
   browserify: {
-    plugin: cli.flags.plugin
+    plugin: cli.flags.plugin ? [cli.flags.plugin] : undefined
   }
 }))
