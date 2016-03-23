@@ -35,6 +35,7 @@
   "files": [
     "bin.js",
     "create.js",
+    "document.js",
     "index.js",
     "plugin.js",
     "transform.js"
@@ -44,9 +45,12 @@
     "defined": "~1.0.0",
     "dom-delegator": "~13.1.0",
     "global": "~4.3.0",
+    "hyperstream": "~1.2.2",
     "meow": "~3.3.0",
+    "meta-viewport-ios-9": "~2.0.0",
     "require-deps": "~1.0.1",
     "resolve": "~1.1.6",
+    "simple-html-index": "~1.2.0",
     "thermometer": "~1.3.4",
     "through2": "~2.0.0",
     "transformify": "~0.1.2",
