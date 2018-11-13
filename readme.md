@@ -1,4 +1,4 @@
-# degree [![Build Status](https://travis-ci.org/bendrucker/degree.svg?branch=master)](https://travis-ci.org/bendrucker/degree)
+# degree [![Build Status](https://travis-ci.org/bendrucker/degree.svg?branch=master)](https://travis-ci.org/bendrucker/degree) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/degree.svg)](https://greenkeeper.io/)
 
 > Development server for virtual-dom/observable components
 
